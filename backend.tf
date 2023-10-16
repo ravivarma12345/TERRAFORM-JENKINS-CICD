@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "jenkins-cicd1"
+    bucket         = "vikrambucket"
     key            = "my-terraform-environment/main"
-    region         = "us-east-2"
-    dynamodb_table = "ajay-dynamo-db-table"
+    region         = "ap-south-1a"
+    dynamodb_table = "vikram-dynamo-db-table"
   }
 }
